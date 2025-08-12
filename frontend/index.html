@@ -34,6 +34,16 @@
             </div>
         </div>
 
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="btn btn-primary" onclick="openCustomerModal()">
+                ➕ Add New Customer
+            </button>
+            <button class="btn btn-success" onclick="openCSVModal()">
+                📁 Load CSV Data
+            </button>
+        </div>
+
         <!-- Main Content -->
         <div class="main-content">
             <h2 class="section-title">👥 Customer List</h2>
@@ -51,11 +61,12 @@
                             <th>Phone</th>
                             <th>City</th>
                             <th>Status</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody id="customersTableBody">
                         <tr>
-                            <td colspan="5" class="loading">Loading customers...</td>
+                            <td colspan="6" class="loading">Loading customers...</td>
                         </tr>
                     </tbody>
                 </table>
@@ -82,6 +93,89 @@
             </div>
             
             <div id="queryResults"></div>
+        </div>
+    </div>
+
+    <!-- Customer Modal -->
+    <div id="customerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Add New Customer</h3>
+                <span class="close" onclick="closeCustomerModal()">&times;</span>
+            </div>
+            <form id="customerForm" onsubmit="submitCustomer(event)">
+                <div class="form-group">
+                    <label for="identification_number">Identification Number *</label>
+                    <input type="text" id="identification_number" name="identification_number" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first_name">First Name *</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Last Name *</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="street_address">Street Address</label>
+                    <input type="text" id="street_address" name="street_address">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state">
+                    </div>
+                    <div class="form-group">
+                        <label for="zip_code">ZIP Code</label>
+                        <input type="text" id="zip_code" name="zip_code">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone_extension">Extension</label>
+                        <input type="text" id="phone_extension" name="phone_extension">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeCustomerModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Add Customer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- CSV Upload Modal -->
+    <div id="csvModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Load CSV Data</h3>
+                <span class="close" onclick="closeCSVModal()">&times;</span>
+            </div>
+            <form id="csvForm" onsubmit="submitCSV(event)">
+                <div class="form-group">
+                    <label for="csvFile">Select CSV File</label>
+                    <input type="file" id="csvFile" name="csvFile" accept=".csv" required>
+                    <small>Upload a CSV file with customer and transaction data</small>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeCSVModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Upload & Process</button>
+                </div>
+            </form>
         </div>
     </div>
 
