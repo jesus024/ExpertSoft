@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Transaction System</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>💰 Financial Transaction System</h1>
+            <p>Payment and invoice management system</p>
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="totalCustomers">-</div>
+                <div class="stat-label">Total Customers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalTransactions">-</div>
+                <div class="stat-label">Total Transactions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="pendingInvoices">-</div>
+                <div class="stat-label">Pending Invoices</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalAmount">-</div>
+                <div class="stat-label">Total Amount</div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h2 class="section-title">👥 Customer List</h2>
+            
+            <!-- Search Box -->
+            <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search customers by name, email or phone...">
+            
+            <!-- Customers Table -->
+            <div class="table-container">
+                <table id="customersTable">
+                    <thead>
+                        <tr>
+                            <th>Customer</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>City</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="customersTableBody">
+                        <tr>
+                            <td colspan="5" class="loading">Loading customers...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Advanced Queries -->
+        <div class="main-content">
+            <h2 class="section-title">📊 Advanced Queries</h2>
+            
+            <div class="query-buttons">
+                <button class="btn btn-primary" onclick="loadTotalPaid()">
+                    💰 Total Paid per Customer
+                </button>
+                <button class="btn btn-warning" onclick="loadPendingInvoices()">
+                    ⚠️ Pending Invoices
+                </button>
+                <button class="btn btn-success" onclick="loadPlatformTransactions('nequi')">
+                    📱 Nequi Transactions
+                </button>
+                <button class="btn btn-success" onclick="loadPlatformTransactions('daviplata')">
+                    💳 Daviplata Transactions
+                </button>
+            </div>
+            
+            <div id="queryResults"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

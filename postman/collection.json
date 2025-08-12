@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "financial-transaction-system",
+		"name": "Financial Transaction Management System",
+		"description": "API collection for the Financial Transaction Management System with CRUD operations and advanced queries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Customers CRUD",
+			"item": [
+				{
+					"name": "Get All Customers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/customers",
+							"host": ["{{base_url}}"],
+							"path": ["api", "customers"]
+						},
+						"description": "Retrieve all customers from the database"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Customer by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/customers/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "customers", "1"]
+						},
+						"description": "Retrieve a specific customer by their ID"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Customer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"identification_number\": \"123456789\",\n    \"first_name\": \"John\",\n    \"last_name\": \"Doe\",\n    \"street_address\": \"123 Main St\",\n    \"city\": \"Bogota\",\n    \"state\": \"Cundinamarca\",\n    \"zip_code\": \"11001\",\n    \"phone\": \"+57-300-123-4567\",\n    \"phone_extension\": null,\n    \"email\": \"john.doe@example.com\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/customers",
+							"host": ["{{base_url}}"],
+							"path": ["api", "customers"]
+						},
+						"description": "Create a new customer in the database"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Customer",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"identification_number\": \"123456789\",\n    \"first_name\": \"John\",\n    \"last_name\": \"Smith\",\n    \"street_address\": \"123 Main St\",\n    \"city\": \"Bogota\",\n    \"state\": \"Cundinamarca\",\n    \"zip_code\": \"11001\",\n    \"phone\": \"+57-300-123-4567\",\n    \"phone_extension\": null,\n    \"email\": \"john.smith@example.com\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/customers/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "customers", "1"]
+						},
+						"description": "Update an existing customer by their ID"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Customer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/customers/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "customers", "1"]
+						},
+						"description": "Delete a customer by their ID"
+					},
+					"response": []
+				}
+			],
+			"description": "Complete CRUD operations for customer management"
+		},
+		{
+			"name": "Advanced Queries",
+			"item": [
+				{
+					"name": "Total Paid per Customer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/queries/total-paid",
+							"host": ["{{base_url}}"],
+							"path": ["api", "queries", "total-paid"]
+						},
+						"description": "Get total amount paid by each customer with transaction summary"
+					},
+					"response": []
+				},
+				{
+					"name": "Pending Invoices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/queries/pending-invoices",
+							"host": ["{{base_url}}"],
+							"path": ["api", "queries", "pending-invoices"]
+						},
+						"description": "Get all pending invoices with customer and transaction information"
+					},
+					"response": []
+				},
+				{
+					"name": "Platform Transactions - Nequi",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/queries/platform-transactions/nequi",
+							"host": ["{{base_url}}"],
+							"path": ["api", "queries", "platform-transactions", "nequi"]
+						},
+						"description": "Get all transactions made through Nequi platform"
+					},
+					"response": []
+				},
+				{
+					"name": "Platform Transactions - Daviplata",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/queries/platform-transactions/daviplata",
+							"host": ["{{base_url}}"],
+							"path": ["api", "queries", "platform-transactions", "daviplata"]
+						},
+						"description": "Get all transactions made through Daviplata platform"
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Platforms",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/queries/platforms",
+							"host": ["{{base_url}}"],
+							"path": ["api", "queries", "platforms"]
+						},
+						"description": "Get all available payment platforms"
+					},
+					"response": []
+				}
+			],
+			"description": "Advanced business queries for financial analysis"
+		},
+		{
+			"name": "Data Upload",
+			"item": [
+				{
+					"name": "Upload CSV File",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "csvFile",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/upload/csv",
+							"host": ["{{base_url}}"],
+							"path": ["api", "upload", "csv"]
+						},
+						"description": "Upload and process CSV file for bulk data loading"
+					},
+					"response": []
+				}
+			],
+			"description": "Bulk data upload functionality"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}

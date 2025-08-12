@@ -1,0 +1,55 @@
+Tipo de Transaccion,Nombre del Cliente,Numero de Identificacion,Direccion,Telefono,Correo Electronico,Plataforma Utilizada,Numero de Factura,Periodo de Facturacion,Monto Facturado,Monto Pagado
+Pago de Factura,Angel Daniel,149186547,USNS DavisFPO AP 78518,(873)222-2692x09480,rmiller@boyer.com,Nequi,FAC7068,2024-06,39940,0
+Pago de Factura,Matthew Wilson,475925688,42023 Barrett Path Suite 281Jeremyborough OH 72889,0756633727,matthew15@ramirez.com,Daviplata,FAC6577,2024-07,76145,75145
+Pago de Factura,Jennifer Phelps,112231541,392 Smith Corners Apt. 737East Angeltown MO 64086,001-158-358-0277,echristian@hotmail.com,Nequi,FAC5707,2024-06,179217,179217
+Pago de Factura,Jonathan Cook,25832528,0246 Brown Roads Suite 606North Luisburgh WI 38462,674-440-7862,barkerbrent@berg-dougherty.com,Daviplata,FAC7938,2024-07,167924,167924
+Pago de Factura,Julia Davis,97866586,247 Sheila CentersNorth Troybury WA 43836,+1-692-758-5774x3951,paul38@byrd.info,Nequi,FAC8649,2024-06,147991,0
+Pago de Factura,Amy Woods,79987146,392 Smith Corners Apt. 737East Angeltown MO 64086,001-158-358-0277,melissawebb@gmail.com,Daviplata,FAC4348,2024-07,124048,124048
+Pago de Factura,Nicole McDonald,25832528,0246 Brown Roads Suite 606North Luisburgh WI 38462,674-440-7862,nicole@example.com,Nequi,FAC1234,2024-06,50000,25000
+Pago de Factura,Richard Weiss,97866586,247 Sheila CentersNorth Troybury WA 43836,+1-692-758-5774x3951,richard@example.com,Daviplata,FAC5678,2024-07,75000,0
+Pago de Factura,Sarah Clark,79987146,392 Smith Corners Apt. 737East Angeltown MO 64086,001-158-358-0277,sarah@example.com,Nequi,FAC9012,2024-06,85000,85000
+Pago de Factura,Michael Brown,149186547,USNS DavisFPO AP 78518,(873)222-2692x09480,michael@example.com,Daviplata,FAC3456,2024-07,95000,47500
+Pago de Factura,Robert Smith,123456789,Unit 2774 Box 4368 DPO AE 01041,001-595-596-1706x9253,smithtimothy@wallace.com,Nequi,FAC7018,2024-06,158030,0
+Pago de Factura,Jonathan Smith,987654321,322 Smith Pines Suite 052 Lake Scothaven NM 11543,555-123-4567,debragriffin@hotmail.com,Daviplata,FAC4082,2024-07,196009,196009
+Pago de Factura,Erin Marshall,456789123,789 Oak Street New York NY 10001,555-987-6543,erin@marshall.com,Nequi,FAC1234,2024-06,68526,68526
+Pago de Factura,Mark Ford,789123456,456 Pine Avenue Los Angeles CA 90210,555-456-7890,mark@ford.com,Daviplata,FAC5678,2024-07,123720,0
+Pago de Factura,Cynthia Lee,321654987,123 Elm Street Chicago IL 60601,555-789-1234,cynthia@lee.com,Nequi,FAC9012,2024-06,17171,0
+Pago de Factura,Sean Hood,147258369,789 Maple Drive Houston TX 77001,555-321-6547,sean@hood.com,Daviplata,FAC3456,2024-07,31572,31572
+Pago de Factura,Kim Stephens,963852741,456 Oak Lane Phoenix AZ 85001,555-147-2583,kim@stephens.com,Nequi,FAC7890,2024-06,87689,0
+Pago de Factura,Adam Mckinney,852963741,123 Pine Street Philadelphia PA 19101,555-963-8527,adam@mckinney.com,Nequi,FAC2345,2024-07,178739,0
+Pago de Factura,Valerie Brown,741852963,789 Elm Avenue San Antonio TX 78201,555-852-9637,valerie@brown.com,Nequi,FAC6789,2024-06,105611,0
+Pago de Factura,Jason Pace,369258147,456 Maple Drive San Diego CA 92101,555-741-8529,jason@pace.com,Daviplata,FAC0123,2024-07,141787,141787
+Pago de Factura,Gregory Anderson,258147369,123 Oak Street Dallas TX 75201,555-369-2581,gregory@anderson.com,Nequi,FAC4567,2024-06,39792,39792
+Pago de Factura,Rebecca Avila,147369258,789 Pine Avenue San Jose CA 95101,555-258-1473,rebecca@avila.com,Daviplata,FAC8901,2024-07,88189,0
+Pago de Factura,Morgan Leon,963147258,456 Elm Street Austin TX 73301,555-147-3692,morgan@leon.com,Nequi,FAC2345,2024-06,179739,0
+Pago de Factura,Fernando Hunt,852147369,123 Maple Drive Jacksonville FL 32099,555-963-1472,fernando@hunt.com,Daviplata,FAC6789,2024-07,106611,0
+Pago de Factura,Jason Luna,741369258,789 Oak Lane Fort Worth TX 76101,555-852-1473,jason@luna.com,Nequi,FAC0123,2024-06,142787,0
+Pago de Factura,Gregory Howell,369147258,456 Pine Street Columbus OH 43201,555-741-3692,gregory@howell.com,Daviplata,FAC4567,2024-07,39792,39792
+Pago de Factura,Miguel Sharp MD,147258369,123 Elm Avenue Charlotte NC 28201,555-369-1472,miguel@sharp.com,Nequi,FAC8901,2024-06,88189,0
+Pago de Factura,Stephanie Acosta,963258147,789 Maple Drive San Francisco CA 94101,555-147-2583,stephanie@acosta.com,Daviplata,FAC2345,2024-07,179739,0
+Pago de Factura,Julia Davis,852369147,456 Oak Street Indianapolis IN 46201,555-963-2581,julia@davis.com,Nequi,FAC6789,2024-06,106611,0
+Pago de Factura,Amy Woods,741258369,123 Pine Lane Seattle WA 98101,555-852-3692,amy@woods.com,Daviplata,FAC0123,2024-07,142787,142787
+Pago de Factura,Nicole McDonald,369258147,789 Elm Street Denver CO 80201,555-741-2583,nicole@mcdonald.com,Nequi,FAC4567,2024-06,39792,39792
+Pago de Factura,Richard Weiss,147369258,456 Maple Avenue Washington DC 20001,555-369-2581,richard@weiss.com,Daviplata,FAC8901,2024-07,88189,0
+Pago de Factura,Sarah Clark,963147258,123 Oak Drive Boston MA 02101,555-147-3692,sarah@clark.com,Nequi,FAC2345,2024-06,179739,0
+Pago de Factura,Michael Brown,852147369,789 Pine Street Nashville TN 37201,555-963-1472,michael@brown.com,Daviplata,FAC6789,2024-07,106611,0
+Pago de Factura,Angelica Gibbs,741369258,456 Elm Lane Detroit MI 48201,555-852-3691,angelica@gibbs.com,Nequi,FAC0123,2024-06,142787,0
+Pago de Factura,Tammy Jacobs,369147258,123 Maple Drive Portland OR 97201,555-741-1472,tammy@jacobs.com,Daviplata,FAC4567,2024-07,39792,39792
+Pago de Factura,Michael Evans,147258369,789 Oak Avenue Memphis TN 38101,555-369-3692,michael@evans.com,Nequi,FAC8901,2024-06,88189,0
+Pago de Factura,Sharon Ingram,963258147,456 Pine Lane Oklahoma City OK 73101,555-147-2581,sharon@ingram.com,Daviplata,FAC2345,2024-07,179739,0
+Pago de Factura,Kyle Martinez,852369147,123 Elm Street Las Vegas NV 89101,555-963-1473,kyle@martinez.com,Nequi,FAC6789,2024-06,106611,0
+Pago de Factura,Elizabeth Rodriguez,741258369,789 Maple Avenue Louisville KY 40201,555-852-3692,elizabeth@rodriguez.com,Daviplata,FAC0123,2024-07,142787,0
+Pago de Factura,Christopher Gomez,369258147,456 Oak Drive Baltimore MD 21201,555-741-2583,christopher@gomez.com,Nequi,FAC4567,2024-06,39792,39792
+Pago de Factura,Brian Morton,147369258,123 Pine Street Milwaukee WI 53201,555-369-1472,brian@morton.com,Daviplata,FAC8901,2024-07,88189,0
+Pago de Factura,Robert Hicks,963147258,789 Elm Avenue Albuquerque NM 87101,555-147-3691,robert@hicks.com,Nequi,FAC2345,2024-06,179739,0
+Pago de Factura,Terry Watson,852147369,456 Maple Drive Tucson AZ 85701,555-963-2582,terry@watson.com,Daviplata,FAC6789,2024-07,106611,0
+Pago de Factura,Carlos Wood,741369258,123 Oak Lane Fresno CA 93701,555-852-3693,carlos@wood.com,Nequi,FAC0123,2024-06,142787,0
+Pago de Factura,Richard Weiss,369258147,789 Pine Street Sacramento CA 95801,555-741-1473,richard@weiss.com,Daviplata,FAC4567,2024-07,39792,39792
+Pago de Factura,Sarah Clark,147369258,456 Elm Drive Kansas City MO 64101,555-369-3691,sarah@clark.com,Nequi,FAC8901,2024-06,88189,0
+Pago de Factura,Briana Wu,963147258,123 Maple Avenue Mesa AZ 85201,555-147-2582,briana@wu.com,Daviplata,FAC2345,2024-07,179739,0
+Pago de Factura,Raven Jordan,852369147,789 Oak Street Atlanta GA 30301,555-963-1471,raven@jordan.com,Nequi,FAC6789,2024-06,106611,0
+Pago de Factura,Sharon Ingram,8614619,132 Vargas Turnpike Danielbury DE 40715,270.214.8473x8548,seanbishop@yahoo.com,Daviplata,FAC1513,2024-06,39792,39792
+Pago de Factura,Kyle Martinez,61660425,USS Greene FPO AA 26511,676-110-6562x32575,baleronald@vargas-hernandez.info,Daviplata,FAC3039,2024-07,88189,0
+Pago de Factura,Elizabeth Rodriguez,603449840,3551 Rodriguez Port Apt 808 Lake Charles WI 24322,(677)161-5260x6354,kathyrodriguez@thompson.biz,Nequi,FAC3709,2024-06,179739,0
+Pago de Factura,Christopher Gomez,917844640,875 Jennifer Oval Suite 067 West Phillipmouth IL 91337,001-066-886-7181x1777,marcus34@hotmail.com,Daviplata,FAC3914,2024-06,106611,0
+Pago de Factura,Brian Morton,843106189,431 Rodriguez Estate Suite 894 New Christopherview IN 74616,+1-352-961-6835x0739,garnold@bender-caldwell.com,Daviplata,FAC8875,2024-06,142787,141787 

@@ -1,0 +1,11 @@
+Tipo de Transaccion,Nombre del Cliente,Numero de Identificacion,Direccion,Telefono,Correo Electronico,Plataforma Utilizada,Numero de Factura,Periodo de Facturacion,Monto Facturado,Monto Pagado
+Pago de Factura,Angel Daniel,149186547,USNS DavisFPO AP 78518,(873)222-2692x09480,rmiller@boyer.com,Nequi,FAC7068,2024-06,39940,0
+Pago de Factura,Matthew Wilson,475925688,42023 Barrett Path Suite 281Jeremyborough OH 72889,0756633727,matthew15@ramirez.com,Daviplata,FAC6577,2024-07,76145,75145
+Pago de Factura,Jennifer Phelps,112231541,392 Smith Corners Apt. 737East Angeltown MO 64086,001-158-358-0277,echristian@hotmail.com,Nequi,FAC5707,2024-06,179217,179217
+Pago de Factura,Jonathan Cook,25832528,0246 Brown Roads Suite 606North Luisburgh WI 38462,674-440-7862,barkerbrent@berg-dougherty.com,Daviplata,FAC7938,2024-07,167924,167924
+Pago de Factura,Julia Davis,97866586,247 Sheila CentersNorth Troybury WA 43836,+1-692-758-5774x3951,paul38@byrd.info,Nequi,FAC8649,2024-06,147991,0
+Pago de Factura,Amy Woods,79987146,392 Smith Corners Apt. 737East Angeltown MO 64086,001-158-358-0277,melissawebb@gmail.com,Daviplata,FAC4348,2024-07,124048,124048
+Pago de Factura,Nicole McDonald,25832528,0246 Brown Roads Suite 606North Luisburgh WI 38462,674-440-7862,nicole@example.com,Nequi,FAC1234,2024-06,50000,25000
+Pago de Factura,Richard Weiss,97866586,247 Sheila CentersNorth Troybury WA 43836,+1-692-758-5774x3951,richard@example.com,Daviplata,FAC5678,2024-07,75000,0
+Pago de Factura,Sarah Clark,79987146,392 Smith Corners Apt. 737East Angeltown MO 64086,001-158-358-0277,sarah@example.com,Nequi,FAC9012,2024-06,85000,85000
+Pago de Factura,Michael Brown,149186547,USNS DavisFPO AP 78518,(873)222-2692x09480,michael@example.com,Daviplata,FAC3456,2024-07,95000,47500
