@@ -80,7 +80,7 @@ async function loadTotalPaid() {
         const data = await response.json();
         
         const resultsDiv = document.getElementById('queryResults');
-        let html = '<h3>💰 Total Paid per Customer</h3>';
+        let html = '<h3> Total Paid per Customer</h3>';
         html += '<div class="table-container"><table><thead><tr><th>Customer</th><th>Total Paid</th></tr></thead><tbody>';
         
         data.forEach(item => {
@@ -103,7 +103,7 @@ async function loadPendingInvoices() {
         const data = await response.json();
         
         const resultsDiv = document.getElementById('queryResults');
-        let html = '<h3>⚠️ Pending Invoices</h3>';
+        let html = '<h3> Pending Invoices</h3>';
         html += '<div class="table-container"><table><thead><tr><th>Customer</th><th>Invoice</th><th>Amount</th><th>Status</th></tr></thead><tbody>';
         
         data.forEach(item => {
@@ -126,7 +126,7 @@ async function loadPlatformTransactions(platform) {
         const data = await response.json();
         
         const resultsDiv = document.getElementById('queryResults');
-        let html = `<h3>📱 ${platform.charAt(0).toUpperCase() + platform.slice(1)} Transactions</h3>`;
+        let html = `<h3> ${platform.charAt(0).toUpperCase() + platform.slice(1)} Transactions</h3>`;
         html += '<div class="table-container"><table><thead><tr><th>Customer</th><th>Invoice</th><th>Amount</th><th>Status</th></tr></thead><tbody>';
         
         data.forEach(item => {
